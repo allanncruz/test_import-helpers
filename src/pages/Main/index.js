@@ -1,9 +1,15 @@
 import React from 'react';
+import { useSelector } from 'react-redux'
+import api  from 'axios';
+import Header from '../../components/Header';
+import { Container, Title } from './styles';
+import User from './User';
 
-// import { Container } from './styles';
-
-function Main() {
-  return <div />;
+export default function Main() {
+  return (
+      <Container>
+          <Title>Eslint Import</Title>
+          <User />
+      </Container>
+  )
 }
-
-export default Main;
