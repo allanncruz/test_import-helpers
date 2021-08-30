@@ -1,6 +1,7 @@
-import api from 'axios';
 import React from 'react';
 import { useSelector } from 'react-redux';
+
+import api from 'axios';
 
 import Header from '../../components/Header';
 import { Container, Title } from './styles';
