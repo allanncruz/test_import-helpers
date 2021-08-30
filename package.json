@@ -1,0 +1,16 @@
+{
+  "name": "test_import-helpers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:allanncruz/test_import-helpers.git",
+  "author": "allanncruz <contato@allancruz.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-redux": "^7.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
